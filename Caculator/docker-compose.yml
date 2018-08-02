@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  caculator:
+    image: ${DOCKER_REGISTRY}caculator
+    build:
+      context: .
+      dockerfile: Caculator\Dockerfile
